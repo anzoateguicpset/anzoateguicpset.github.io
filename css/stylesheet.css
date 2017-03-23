@@ -1,0 +1,78 @@
+body{
+	background-image: url("../images/bg-image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+}
+.box{
+	width: 95%;
+	height: 95%;
+	background-color: rgba(44,36,25, .8);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+.font{
+	color: white;
+    font-family: 'Merriweather', serif;
+
+}
+.title h1{
+	font-size: 3.4rem;
+	font-weight: bold;
+	margin-top: 5rem;
+}
+.title h2{
+	font-weight: bold;
+}
+.message{
+	color: #801719;
+}
+.message h3{
+	font-weight: bold;
+	font-size: 5rem;
+}
+	.message .gear{
+		animation: rotate-center 0.6s ease-in-out infinite both;
+	}
+.social-links{
+}
+	.social-links a{
+		text-decoration: none;
+		color: #fff;
+		margin: 0 2rem;
+	}
+	.social-links a:hover{
+		color: #801719;
+	}
+
+@keyframes rotate-center{
+	0%{ transform:rotate(0);}
+	to{ transform:rotate(1turn);}
+}
+
+@media (max-width: 600px){
+	.title h1, .title h2{
+		font-size: 1rem;
+	}
+	.message h3{
+		font-size: 2rem;
+	}
+
+}
+@media (min-width: 601px) and (max-width: 980px){
+	.title h1, .title h2{
+		font-size: 1.5rem;
+	}
+	.message h3{
+		font-size: 2.5rem;
+	}
+
+}
+
+/*@media (max-width: 600px) and (max-width: 600px)*/
