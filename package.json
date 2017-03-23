@@ -1,0 +1,9 @@
+{
+  "name": "anzoateguicpset.github.io",
+  "version": "1.0.0",
+  "description": "página web CPSET Anzoátegui",
+  "main": "index.js",
+  "repository": "git@github.com:anzoateguicpset/anzoateguicpset.github.io.git",
+  "author": "franklin lugo <franklinlugo2805@gmail.com>",
+  "license": "MIT"
+}
