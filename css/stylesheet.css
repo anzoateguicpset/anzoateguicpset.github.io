@@ -1,0 +1,22 @@
+body {
+  background-color: #FAFAFA;
+  color: #000;
+  font-size: 16px; }
+
+.u-flex {
+  display: flex; }
+
+.br {
+  border: 1px solid red; }
+
+.header-logoContainer {
+  width: 50%;
+  margin: 0 auto; }
+
+.header-sectionsContainer a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Roboto", sans-serif; }
+
+.header-sectionsContainer img {
+  margin: 0 auto; }

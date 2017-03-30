@@ -18,9 +18,7 @@ var config= {
 gulp.task('pugIndex', function buildHTML() {
   return gulp.src(config.pugMainFile)
 	.pipe(pug({
-  			pretty: ' ',
-  			debug: true, 
-  			compileDebug: true
+  			pretty: ' '
 			}))
 	.on('error', notify.onError(function (error) {
     return 'An error occurred while compiling pug.\nLook in the console for details.\n' + error;

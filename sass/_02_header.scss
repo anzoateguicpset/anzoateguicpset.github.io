@@ -1,0 +1,19 @@
+.header {
+	&-logoContainer {
+		width: 50%;
+		margin: 0 auto;
+	}
+	&-sectionsContainer {
+		a {
+			text-decoration: none;
+			color: $color-text;
+			font-family: $font-text;
+		}
+		& img {
+			margin: 0 auto;
+		}
+	}
+
+}
+
+
