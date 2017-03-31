@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function(){
-	console.log("DOM Cargado");
 
 	// slideShow
 
@@ -18,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function(){
 		plusSlides(1);
 	});
 
-	// funciones slideShow
+	// slideShow functions
 	function plusSlides(n) {
 	  showSlides(slideIndex += n);
 	}
