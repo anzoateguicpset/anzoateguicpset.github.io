@@ -10,7 +10,7 @@ var config= {
 		watch: [ 'index.html', 'sassPath', 'cssPath']
 	},
 	sassPath: 'sass/*.scss',
-	cssPath: 'css',
+	cssPath: 'css/stylesheet.css',
 	pugMainFile: 'pug/index.pug', 
 	pugDir: 'pug/*.pug'
 }

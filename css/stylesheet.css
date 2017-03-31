@@ -20,3 +20,9 @@ body {
 
 .header-sectionsContainer img {
   margin: 0 auto; }
+
+.resena p {
+  text-align: justify; }
+
+.resena-item {
+  padding: 0 6rem; }
