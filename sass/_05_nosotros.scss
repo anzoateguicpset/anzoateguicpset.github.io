@@ -1,0 +1,21 @@
+.nosotros{
+	.nosotros-item{
+		@extend .u-flex;
+		flex-direction: column;
+		align-items: center;
+		&Img{
+			border-radius: 50%;
+		}
+		&Para{
+			padding: 0 6rem;
+		}
+		&Links{
+			@extend .u-flex;
+			justify-content: space-between;
+			width: 60%;
+			& a{
+				color: $color-text;
+			}
+		}
+	}
+}

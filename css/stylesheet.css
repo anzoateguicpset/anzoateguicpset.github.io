@@ -3,7 +3,7 @@ body {
   color: #000;
   font-size: 16px; }
 
-.u-flex {
+.u-flex, .nosotros .nosotros-item, .nosotros .nosotros-itemLinks {
   display: flex; }
 
 .br {
@@ -63,3 +63,16 @@ body {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+.nosotros .nosotros-item {
+  flex-direction: column;
+  align-items: center; }
+  .nosotros .nosotros-itemImg {
+    border-radius: 50%; }
+  .nosotros .nosotros-itemPara {
+    padding: 0 6rem; }
+  .nosotros .nosotros-itemLinks {
+    justify-content: space-between;
+    width: 60%; }
+    .nosotros .nosotros-itemLinks a {
+      color: #000; }
