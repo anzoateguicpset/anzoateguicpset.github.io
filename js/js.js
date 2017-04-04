@@ -53,8 +53,91 @@ function initMap() {
 	// map cpset
     var mapCpset = new google.maps.Map(footer, {
       zoom: 16,
-      center: cpset
+      center: cpset, 
+      styles: [
+  {
+    "elementType": "geometry.fill",
+    "stylers": [
+	      {
+	        "color": "#fafafa"
+	      },
+	      {
+	        "visibility": "on"
+	      }
+	    ]
+	  },
+	  {
+	    "elementType": "geometry.stroke",
+	    "stylers": [
+	      {
+	        "color": "#0adef0"
+	      },
+	      {
+	        "visibility": "on"
+	      }
+	    ]
+	  },
+	  {
+	    "elementType": "labels.icon",
+	    "stylers": [
+	      {
+	        "color": "#0adef0"
+	      },
+	      {
+	        "visibility": "on"
+	      }
+	    ]
+	  },
+	  {
+	    "elementType": "labels.text.fill",
+	    "stylers": [
+	      {
+	        "color": "#ff6000"
+	      },
+	      {
+	        "visibility": "on"
+	      }
+	    ]
+	  },
+	  {
+	    "featureType": "landscape.man_made",
+	    "elementType": "geometry.fill",
+	    "stylers": [
+	      {
+	        "color": "#bfbfbf"
+	      },
+	      {
+	        "visibility": "on"
+	      }
+	    ]
+	  },
+	  {
+	    "featureType": "landscape.natural.terrain",
+	    "elementType": "geometry.fill",
+	    "stylers": [
+	      {
+	        "color": "#f0e8e8"
+	      },
+	      {
+	        "visibility": "on"
+	      }
+	    ]
+	  },
+	  {
+	    "featureType": "road.highway",
+	    "elementType": "geometry.fill",
+	    "stylers": [
+	      {
+	        "color": "#000000"
+	      },
+	      {
+	        "visibility": "on"
+	      }
+	    ]
+	  }
+	]
     });
+
     var marker = new google.maps.Marker({
       position: cpset,
       map: mapCpset
