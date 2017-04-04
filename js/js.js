@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 // API Google Maps
 
-var footer = document.getElementById('footer');
+var footer = document.getElementById('footerMap');
 var cpset = {lat: 10.148994, lng: -64.696688};
 
 function initMap() {
