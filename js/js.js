@@ -59,7 +59,7 @@ function initMap() {
     "elementType": "geometry.fill",
     "stylers": [
 	      {
-	        "color": "#fafafa"
+	        "color": "#DADADA"
 	      },
 	      {
 	        "visibility": "on"

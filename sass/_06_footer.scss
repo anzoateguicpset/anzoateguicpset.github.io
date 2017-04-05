@@ -8,10 +8,26 @@
 	&Contact {
 		position: absolute;
 		top: 50%;
-		left: 0;
+		left: 50px;
 		transform: translateY(-50%);
 		width: 30%;
-		height: 50%;
-		background-color: blue;
+		height: 70%;
+		background-color: darken($color-backgroundMap, 25%);
+		color: darken($color-background, 5%);
+		&Dir {
+			margin-left: 1.5rem;
+			font-family: $font-text;
+		}
+		&Links {
+			margin-left: 1.5rem;
+			font-family: $font-text;
+			& .item {
+				color: darken($color-accent, 15%);
+				&:hover {
+					opacity: .8;
+				}
+			}
+
+		}
 	}
 }
