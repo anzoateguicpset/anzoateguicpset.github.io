@@ -1,7 +1,8 @@
 body {
   background-color: #FAFAFA;
   color: #000;
-  font-size: 16px; }
+  font-size: 16px;
+  font-family: "Roboto", sans-serif; }
 
 .u-flex, .nosotros .nosotros-item, .nosotros .nosotros-itemLinks {
   display: flex; }
@@ -12,6 +13,14 @@ body {
 .header-logoContainer {
   width: 50%;
   margin: 0 auto; }
+
+.header-title h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  margin: .2rem auto 1rem;
+  width: 80%;
+  border-top: 1.5px solid #ff6000;
+  border-bottom: 1.5px solid #ff6000; }
 
 .header-sectionsContainer a {
   text-decoration: none;
