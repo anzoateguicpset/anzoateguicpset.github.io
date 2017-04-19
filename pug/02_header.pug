@@ -1,22 +1,7 @@
-header.container-fluid
-	.row
-		.header-logoContainer
-			img(class='header-logo img-responsive' src='/images/logo.png')
-		.header-title
-			h1.text-center CENTRO DE PRODUCCIÓN DE SOLUCIONES EDUCATIVAS TECNOLÓGICAS
-	.row.header-sectionsContainer.text-center
-		.col-xs-4
-			a( href='#')
-				figure
-					img(class='img-responsive' src='http://www.fillmurray.com/200/200')
-					figcaption Reseña
-		.col-xs-4
-			a( href='#')
-				figure
-					img(class='img-responsive' src='http://www.fillmurray.com/200/200')
-					figcaption Nosotros
-		.col-xs-4
-			a( href='#')
-				figure
-					img(class='img-responsive' src='http://www.fillmurray.com/200/200')
-					figcaption Proyectos
+.header.container-fluid
+	.wrapper
+		.row.header-title
+			include 02_header-top.pug
+		.row.header-sections.text-center
+			include 02_header-bottom.pug
+

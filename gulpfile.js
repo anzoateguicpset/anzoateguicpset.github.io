@@ -29,7 +29,9 @@ gulp.task('pugIndex', function buildHTML() {
 
 gulp.task('sass', function(){
 	return gulp.src(config.sassPath)
-	.pipe(sass())
+	.pipe(sass({
+		outputStyle: 'compact'
+	}))
 	.on('error', notify.onError(function (error) {
     return 'An error occurred while compiling sass.\nLook in the console for details.\n' + error;
 	}))
