@@ -36,6 +36,8 @@ body { background-color: #FAFAFA; color: #000; font-size: 16px; font-family: "Ro
 
 .resena-item { padding: 0 6rem; }
 
+.resena-item::before { content: ""; }
+
 .proyectos { position: relative; overflow: hidden; }
 
 .proyectos img { margin: 0 auto; width: 600px; }
