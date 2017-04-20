@@ -1,10 +1,18 @@
 .proyectos{
 	position: relative;
     overflow: hidden;
-
+	padding: 5rem 0;
+	border-bottom: 1px solid darken($color-background, 10);
+	.title{
+		font-family: $font-title;
+		margin: 0 0 2rem 0;
+	}
+	.description{}
 	img{
-		margin: 0 auto;
-		width: 600px
+		margin: 0 auto 1.5rem;
+		width: 600px;
+		height: auto;
+		max-height: 337.5px;
 	}
 
 	.prev, .next {
