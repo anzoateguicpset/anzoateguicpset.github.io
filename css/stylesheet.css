@@ -1,3 +1,6 @@
+/** Computes a top-shadow for a card effect. @param {Number} $depth - depth level @return {List} */
+/** Computes a bottom-shadow for a card effect. @param {Number} $depth - depth level @return {List} */
+/** Gives a card depth effect. @param {Number} $depth - depth level (between 1 and 5) @link http://www.google.com/design/spec/layout/layout-principles.html#layout-principles-dimensionality Google Design @requires {function} top-shadow @requires {function} bottom-shadow */
 * { box-sizing: border-box; }
 
 body { background-color: #FAFAFA; color: #000; font-size: 16px; font-family: "Roboto", sans-serif; }
@@ -16,7 +19,7 @@ body { background-color: #FAFAFA; color: #000; font-size: 16px; font-family: "Ro
 
 @media (max-width: 767px) { .header-title .logoContainer { width: 80%; } }
 
-.header-title .title { font-family: "Playfair Display", serif; margin-top: 2rem; color: #fafafa; border-top: 2px solid #ff6000; border-bottom: 2px solid #ff6000; width: 100%; }
+.header-title .title { font-family: "Playfair Display", serif; margin-top: 2rem; color: #fafafa; border-bottom: 2px solid #ff6000; }
 
 .header-title .title h1 { font-size: 2.5rem; margin: 0; }
 
@@ -32,11 +35,13 @@ body { background-color: #FAFAFA; color: #000; font-size: 16px; font-family: "Ro
 
 .header-sections a:hover { color: #ff6000; }
 
-.resena p { text-align: justify; }
+.resena { border-bottom: 1px solid #e1e1e1; }
 
 .resena-item { padding: 0 6rem; }
 
-.resena-item::before { content: ""; }
+.resena .title { font-family: "Playfair Display", serif; margin: 2rem 0; }
+
+.resena .paragraph { text-align: justify; padding: 1rem; border-radius: 10px; border: 1px solid rgba(0, 0, 0, 0.1); background-color: #FAFAFA; box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12); }
 
 .proyectos { position: relative; overflow: hidden; }
 

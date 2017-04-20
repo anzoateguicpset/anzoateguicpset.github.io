@@ -1,12 +1,19 @@
 .resena {
-	p {
-		text-align: justify;
-	}
+	border-bottom: 1px solid darken($color-background, 10);
+	// height: 50vh;
 	&-item{
 		padding: 0 6rem;
-
 	}
-	&-item::before{
-		content: "";
+	.title{
+		font-family: $font-title;
+		margin: 2rem 0;
+	}
+	.paragraph {
+		text-align: justify;
+		padding: 1rem;
+		border-radius: 10px;
+		border: 1px solid rgba(black, .1);
+		background-color: $color-background;
+		@include card(1);
 	}
 }
